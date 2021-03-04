@@ -11,7 +11,7 @@ h2 {
 }
 
 h3 {
-  color: rgb(167, 29, 29);
+  color: rgb(168, 5, 5);
 }
 
 th {
@@ -46,6 +46,14 @@ span {
 
 .pink:hover {
   color: pink;
+}
+
+div > p {
+  background-color: rgb(155, 240, 155);
+}
+
+a[href$=".html"] {
+  color: red;
 }
 
 div {
