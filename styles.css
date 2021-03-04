@@ -19,3 +19,40 @@ th {
 span {
   color: purple;
 }
+
+.orange p {
+  background-color: orange;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.middle {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  border: 1px solid black;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.padding1,
+.padding2,
+.padding3 {
+  margin-top: 20px;
+}
+
+.padding1 {
+  padding: 50px;
+}
+
+.padding2 {
+  padding: 20px 50px;
+}
+
+.padding3 {
+  padding: 10px 20px 30px 50px;
+}
