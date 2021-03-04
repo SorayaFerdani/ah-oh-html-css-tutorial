@@ -1,3 +1,28 @@
 .block {
   display: block;
 }
+
+.inline {
+  display: inline;
+}
+
+.none {
+  display: none;
+}
+.box {
+  background-color: yellow;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.flex {
+  display: flex;
+  /*justify-content: space-evenly;*/
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /*grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;*/
+}
