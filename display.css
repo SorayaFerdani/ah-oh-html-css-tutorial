@@ -1,3 +1,15 @@
+body {
+  font-family: Open Sans;
+}
+
+h1 {
+  color: rgb(7, 97, 170);
+}
+
+h2 {
+  color: rgb(156, 215, 230);
+}
+
 .block {
   display: block;
 }
