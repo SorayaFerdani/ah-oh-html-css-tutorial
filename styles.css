@@ -28,6 +28,10 @@ span {
   background-color: orange;
 }
 
+.pink:hover {
+  color: pink;
+}
+
 div {
   border: 1px solid black;
 }
