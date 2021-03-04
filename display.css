@@ -25,4 +25,41 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   /*grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;*/
+  /* grid-gap: 10px;*/
+}
+
+.margin {
+  margin-top: 1500px;
+}
+
+.position-div {
+  background-color: rgb(172, 172, 255);
+  width: 50px;
+  padding: 50px;
+}
+
+.static {
+  position: static;
+  left: 50px;
+}
+
+.relative {
+  position: relative;
+  left: 50px;
+}
+
+.absolute {
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+  right: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
 }

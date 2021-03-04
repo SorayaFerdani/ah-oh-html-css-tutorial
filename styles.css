@@ -16,6 +16,10 @@ th {
   color: green;
 }
 
+.size {
+  font-size: 15px;
+}
+
 span {
   color: purple;
 }
