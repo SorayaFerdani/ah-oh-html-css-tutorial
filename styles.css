@@ -2,10 +2,20 @@ th {
   text-align: left;
 }
 
-.rot {
+.red {
   color: red;
 }
 
-#blau {
+#blue {
   color: blue;
+}
+
+.element1,
+.element2,
+.element3 {
+  color: green;
+}
+
+span {
+  color: purple;
 }
