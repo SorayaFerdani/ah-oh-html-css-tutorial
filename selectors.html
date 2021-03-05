@@ -1,0 +1,108 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+	<h1>Selektoren</h1>
+
+	<table style="width:100%">
+		<tr>
+			<th>Selektor</th>
+			<th>HTML</th>
+			<th>CSS</th>
+			<th>Beispiel</th>
+
+		</tr>
+		<tr>
+			<td>Element</td>
+			<td>Nichts</td>
+			<td>Name des Elements</td>
+			<td>p {color: red;}
+		</tr>
+		<tr>
+			<td>Klasse</td>
+			<td>class="rot"</td>
+			<td class="red">.rot</td>
+			<td>.red {color: red;}
+		</tr>
+		<tr>
+			<td>Id</td>
+			<td>id="blau"</td>
+			<td id="blue">#blau</td>
+			<td>#red {color: red;}
+		</tr>
+		<tr>
+			<td>Attribut</td>
+			<td>&lt;img src=""&gt;</td>
+			<td>img[src]</td>
+			<td>img[src] {width: 20px;}
+		</tr>
+	</table>
+
+	</br>
+	<h3>Der Element Selektor wählt alle entsprechenden Elemente aus</h3>
+	<h3>Id und Klasse wählen alle Elemente mit entprechender Id/Klasse</h3>
+	<p>- Klassen können mehfach verwendet werden</p>
+	<p>- eine Id sollte nur einmal verwendet werden</p>
+	<p>- Id's sind "stärker" als Klassen und Klassen sind "stärker" als Element-Selektoren</p>
+
+	<p class="red" id="blue">Hallo Hallo</p>
+	<span class="red" >Hallo Hallo</span>
+	<span>Hallo Hallo</span>
+
+	<h2>Mehrere Elemente auswählen</h2>
+	<p class="element1">Element 1</p>
+	<p class="element2">Element 2</p>
+	<p class="element3 size">Element 3 (ich habe 2 Klassen)</p>
+
+	<h2>Kombination</h2>
+
+	<div class="orange">
+		<p>Ich bin ein p Tag</p>
+		<p>Ich bin ein p Tag</p>
+	</div>
+
+	<h2>Pseudo-Selektoren</h2>
+	<p>- beschreibt speziellen Zusstand eines Elements</p>
+	<p class="pink">Ich werde pink beim hovern</p>
+
+	<h2>Weitere Selektoren</h2>
+
+	<div>
+		<p>Alle p Elemente die ein div als parent haben</p>
+	</div>
+
+	<div>
+		<a href="">Liknk</a></br>
+		<a href="/box-model.html">Link</a>
+	</div>
+
+	<div class="odd">
+		<p>Lorem impsum</p>
+		<p>Lorem impsum</p>
+		<p>Lorem impsum</p>
+		<p>Lorem impsum</p>
+		<p>Lorem impsum</p>
+		<p>Lorem impsum</p>
+	</div>
+
+	<div class="last">
+		<p>Lorem impsum</p>
+		<p>Lorem impsum</p>
+		<p>Lorem impsum</p>
+		<p>Lorem impsum</p>
+	</div>
+
+
+
+	<h2>Weiter</h2>
+	<a href="/box-model.html">Box-Model</a>
+
+
+</body>
+
+</html>

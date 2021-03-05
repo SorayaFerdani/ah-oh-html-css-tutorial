@@ -1,3 +1,105 @@
 body {
-  background: orange;
+  font-family: Open Sans;
+}
+
+h1 {
+  color: rgb(7, 97, 170);
+}
+
+h2 {
+  color: rgb(156, 215, 230);
+}
+
+h3 {
+  color: rgb(168, 5, 5);
+}
+
+th {
+  text-align: left;
+}
+
+.red {
+  color: red;
+}
+
+#blue {
+  color: blue;
+}
+
+.element1,
+.element2,
+.element3 {
+  color: green;
+}
+
+.size {
+  font-size: 20px;
+}
+
+span {
+  color: purple;
+}
+
+.orange p {
+  background-color: orange;
+}
+
+.pink:hover {
+  color: pink;
+}
+
+div > p {
+  background-color: rgb(155, 240, 155);
+}
+
+a[href$=".html"] {
+  color: red;
+}
+
+.odd p:nth-child(odd) {
+  background-color: yellow;
+}
+
+.last p:last-child {
+  background-color: red;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.top {
+  background-color: rgb(167, 196, 209);
+}
+
+.middle {
+  background-color: rgb(223, 194, 223);
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  border: 1px solid black;
+  padding-left: 50px;
+  padding-top: 50px;
+  background-color: rgb(241, 241, 182);
+}
+
+.padding1,
+.padding2,
+.padding3 {
+  margin-top: 20px;
+  background-color: rgb(192, 255, 192);
+}
+
+.padding1 {
+  padding: 50px;
+}
+
+.padding2 {
+  padding: 20px 50px;
+}
+
+.padding3 {
+  padding: 10px 20px 30px 50px;
 }

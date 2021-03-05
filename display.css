@@ -1,0 +1,90 @@
+body {
+  font-family: Open Sans;
+}
+
+h1 {
+  color: rgb(7, 97, 170);
+}
+
+h2 {
+  color: rgb(156, 215, 230);
+}
+
+h3 {
+  color: rgb(168, 5, 5);
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.none {
+  display: none;
+}
+.box {
+  background-color: rgb(134, 211, 134);
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.flex {
+  display: flex;
+  /*justify-content: space-evenly;*/
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /*grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;*/
+  /* grid-gap: 10px;*/
+}
+
+.margin {
+  margin-top: 1500px;
+}
+
+.position-div {
+  background-color: rgb(172, 172, 255, 0.5);
+  width: 50px;
+  padding: 50px;
+}
+
+.static {
+  position: static;
+  left: 50px;
+}
+
+.relative {
+  position: relative;
+  left: 50px;
+  bottom: 30px;
+}
+
+.absolute {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+}
+
+.fixed {
+  position: fixed;
+  right: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
